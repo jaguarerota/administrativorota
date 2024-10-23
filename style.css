@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Photograph Signature';
+    src: url('fonts/Photograph Signature Regular.woff') format('woff'),
+         url('fonts/Photograph Signature Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Estilo da paginaaa */
+body {
+    background-color: #0d0d0d;
+    color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* titulo */
+.titulo {
+    color: #d4af37;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Container Principal (estou decidindo ainda) */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Categoria */
+.categoria {
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+/* Itens */
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #d4af37;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #d4af37;
+    background-color: #2e2e2e;
+    color: #f5f5f5;
+    font-size: 1rem;
+}
+
+/* Total */
+.total {
+    margin-top: 20px;
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.total h2 {
+    color: #f5f5f5;
+    font-size: 1.5rem;
+}
+
+/* Informações no Centro */
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #d4af37;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b8860b;
+}
